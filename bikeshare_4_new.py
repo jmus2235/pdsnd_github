@@ -1,3 +1,6 @@
+# This project contains a python script that enables an end-user to query bikeshare data for Chicago, New York and Washington DC. Data can be filtered by city, month and day of week to obtain
+# statistics on bikeshare usage. Information provided includes the most popular start- and end-stations, total and average trip durations and subscriber statistics (e.g., subscriber type, gender, year of birth, etc).
+
 # Minor trouble-shooting guidance was found on QA websites such as Stack Overflow.
 # A new function has been added in response to reviewer ("data_display") to enable the user to view subsets of the filtered data frame
 
