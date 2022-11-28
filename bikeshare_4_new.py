@@ -1,7 +1,5 @@
 # Minor trouble-shooting guidance was found on QA websites such as Stack Overflow.
-# Confirmation of  code was made with a script on Github when I erroneosly included a for statement
-# as shown in lines 69-71 below (commented out)
-# Also, a new function has been added in response to reviewer ("data_display") to enable the user to view subsets of the filtered data frame
+# A new function has been added in response to reviewer ("data_display") to enable the user to view subsets of the filtered data frame
 
 import time
 import calendar as cdr
@@ -66,9 +64,6 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     
-    # for city_name, file in CITY_DATA.items():
-    #     if city_name == city:
-    #         df = pd.read_csv(file)
     df = pd.read_csv(CITY_DATA[city])
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['End Time'] = pd.to_datetime(df['End Time'])
