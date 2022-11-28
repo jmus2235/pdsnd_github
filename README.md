@@ -1,17 +1,20 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+Project creation date: 11/16/2022
+README.md creation date: 11/28/2022
 
 ### Project Title
-Replace the Project Title
+Bikeshare Python Project for Udacity Programming for Data Science 
 
 ### Description
-Describe what your project is about and what it does
+This project contains a python script that enables an end-user to query bikeshare data for Chicago, New York and Washington DC. Data can be filtered by city, month and day of week to obtain
+statistics on bikeshare usage. Information provided includes the most popular start- and end-stations, total and average trip durations and subscriber statistics (e.g., subscriber type, gender, year of birth, etc).
 
 ### Files used
-Include the files used
+bikeshare_4_new.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Minor trouble-shooting guidance was found on QA websites such as Stack Overflow.
 
