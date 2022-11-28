@@ -25,7 +25,7 @@ def get_filters():
     print()
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input("Please enter the name of the city you are interested in (Chicago, New York or Washington): ").lower()
+        city = input("Please enter the name of the city you are most interested in (Chicago, New York or Washington): ").lower()
         if city not in ("chicago", "new york", "washington"):
             print("\nThat spelling is incorrect, please try again.\n")
         else:
@@ -66,9 +66,6 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     
-    # for city_name, file in CITY_DATA.items():
-    #     if city_name == city:
-    #         df = pd.read_csv(file)
     df = pd.read_csv(CITY_DATA[city])
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['End Time'] = pd.to_datetime(df['End Time'])
