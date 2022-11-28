@@ -8,7 +8,7 @@ import calendar as cdr
 import pandas as pd
 import numpy as np
 import os
-pd.set_option('display.max_columns', 15)
+pd.set_option('display.max_columns', 20)
 
 CITY_DATA = { 'chicago': 'chicago.csv','new york': 'new_york_city.csv','washington': 'washington.csv' }
 
