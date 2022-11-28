@@ -9,7 +9,7 @@ import calendar as cdr
 import pandas as pd
 import numpy as np
 import os
-pd.set_option('display.max_columns', 15)
+pd.set_option('display.max_columns', 20)
 
 CITY_DATA = { 'chicago': 'chicago.csv','new york': 'new_york_city.csv','washington': 'washington.csv' }
 
@@ -26,7 +26,7 @@ def get_filters():
     print()
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input("Please enter the name of the city you are interested in (Chicago, New York or Washington): ").lower()
+        city = input("Please enter the name of the city you are most interested in (Chicago, New York or Washington): ").lower()
         if city not in ("chicago", "new york", "washington"):
             print("\nThat spelling is incorrect, please try again.\n")
         else:
