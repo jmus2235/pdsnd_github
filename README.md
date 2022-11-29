@@ -1,7 +1,7 @@
 ### Date created
 Project creation date: 11/16/2022
 README.md creation date: 11/28/2022
-README.md modification date: 11/29/2022 @ 1:04 pm MT
+README.md modification date: 11/29/2022 @ 1:10 pm MT
 
 ### Project Title
 Bikeshare Python Project for Udacity Programming for Data Science 
@@ -19,4 +19,6 @@ washington.csv
 
 ### Credits
 Minor trouble-shooting guidance was found on QA websites such as Stack Overflow.
+Feedback provided by Udacity Reviewer on 11/28/2022
+
 
